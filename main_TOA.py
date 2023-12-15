@@ -1,9 +1,8 @@
 # %%
-# おまじない
 import numpy as np
 from matplotlib import pyplot as plt
 import pandas as pd
-from Tool.toa_csv import ppfd_toa_csv
+from Tool.ppfd_toa_csv import ppfd_toa_csv
 
 # %%
 # 日付をまとめたcsvファイルから大気上端PPFD (TOA PPFD)を求めるコード
